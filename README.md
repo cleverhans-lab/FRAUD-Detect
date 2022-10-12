@@ -1,4 +1,9 @@
 # FRAUD-Detect:
+
+This is the official repository of [Washing The Unwashable : On The (Im)possibility of Fairwashing Detection](https://nips.cc/Conferences/2022/Schedule?showEvent=54741), a work published in the Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), New Orleans, Louisiana, USA, November 28 - December 9, 2022.<br>
+
+![BlockDiagram](FRAUD-Detect.png)
+
 ## Setup:
 1. Clone code:
 
