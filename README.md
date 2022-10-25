@@ -36,12 +36,10 @@ in our paper.
 
 Note: training the black-box models requires tensorflow. Also the pretrained models are provided at `./FRAUD-Detect/FRAUD-Detect_code/models/pretrained/` directory.
 
-### Fairwashing, training interpretable models
+### Fairwashing and detecting fairwashing using FRAUD-Detect
 
+FRAUD-Detect detects fairwashed models by measuring the Kullback–Leibler (KL) divergence over subpopulation-wise confusion matrices of the interpretable model.
 
-To run this code, see the section below:
-
-### Detecting fairwashing using FRAUD-Detect
 To observe the KL_confusion_matrix vs Demographic Parity
 graph for 10 seeds of a given dataset, interpretable model,
 and black-box model combination:
@@ -56,12 +54,12 @@ optional and given as space separated floats).
 Results will be generated in ``./sample_results/`` 
 directory. 
 
-
 The code currently supports:
 
 - 3 datasets (Adult income, COMPAS, and Bank Marketing)
 - 4 black-box models (DNN, AdaBoost, XgBoost, and Random Forest)
 - 2 interpretable models (Descision Trees, Logistic Regression)
+
 
 There are two graphs available 
 here, the C_KL over Demographic Parity for each seed with dashed lines 
