@@ -1,4 +1,4 @@
-
+# Informed Adversary
 
 
 For this part of the experiments, we rely on the code provided by the autors of the paper "Characterizing Fairness Over the Set of Good Models Under Selective Labels" (https://arxiv.org/abs/2101.00352). 
