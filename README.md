@@ -22,8 +22,7 @@ This is the official repository of [Washing The Unwashable : On The (Im)possibil
 ## Description
 The code contains: 
 1. Training black-box models
-2. Fairwashing, training interpretable models
-3. Deteting fairwashing using FRAUD-Detect
+2. Fairwashing and deteting fairwashing using FRAUD-Detect
 4. Evading FRAUD-Detect using an informed adversary
 
 
