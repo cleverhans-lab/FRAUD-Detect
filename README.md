@@ -67,7 +67,7 @@ The code currently supports:
 #### Outputs
 * The KL divergence as a function of Demographic Parity plot for each seed with dashed lines 
 showing the black-box fairness;
-* Demographic Parity and KL divergence as a function of 1-$\epsilon$ plot with error shadings. 
+* Demographic Parity and KL divergence as a function of fairwashing strength plot with error shadings. 
 
 ### Evading FRAUD-Detect using an informed adversary
 The folder `./FRAUD-Detect_code/threshold_plotting/threshold_plots.py`
