@@ -90,9 +90,7 @@ If you use our code, please cite the following paper:
         month = November 28-December 9
       }
 
-Citations: 
 
-https://github.com/aivodji/LaundryML (GNU General Public License v3.0)
 
 
 
