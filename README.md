@@ -34,7 +34,7 @@ script, though `main.sh` will train the models for all seed and generate
 labels for both the suing and test set which are identical to those used
 in our paper.
 
-Note: training the black-box models requires tensorflow.
+Note: training the black-box models requires tensorflow. Also the pretrained models are provided at `./FRAUD-Detect/FRAUD-Detect_code/models/pretrained/` directory.
 
 ### Fairwashing, training interpretable models
 
