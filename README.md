@@ -76,7 +76,7 @@ We assume an informed adversary who is aware of the FRAUD-Detect and desires to 
 The ./FRAUD-Detect/FRAUD-Detect_code/quantifying_fairwashing/ directory contains codes that explore the range of fairness gap given a fixed value of fidelity and a fixed value of  KL divergence via solving the informed adversary optimization problem.
 
 #### Outputs
-A plot showing the range of demographic parity gap achievable by the informed adversary seeking to evade the fairwashing detector. 
+A plot showing the range of Demographic Parity gap achievable by the informed adversary seeking to evade the fairwashing detector. 
 
 ## References
 If you use our code, please cite the following paper:
