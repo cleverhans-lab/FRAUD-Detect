@@ -72,7 +72,7 @@ showing the black-box fairness;
 ### Evading FRAUD-Detect using an informed adversary
 We assume an informed adversary who is aware of the FRAUD-Detect and desires to evade FRAUD-Detect while performing fairwashing. 
 
-The ./FRAUD-Detect/FRAUD-Detect_code/quantifying_fairwashing/ directory contains codes that explore the range of fairness gap given a fixed value of fidelity and a fixed value of  KL divergence via solving the informed adversary optimization problem.
+The `./FRAUD-Detect/FRAUD-Detect_code/quantifying_fairwashing/` directory contains codes that explore the range of fairness gap given a fixed value of fidelity and a fixed value of  KL divergence via solving the informed adversary optimization problem.
 
 #### Outputs
 A plot showing the range of Demographic Parity gap achievable by the informed adversary seeking to evade the fairwashing detector. 
