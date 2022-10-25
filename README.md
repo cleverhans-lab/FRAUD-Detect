@@ -70,6 +70,10 @@ showing the black-box fairness;
 * Demographic Parity and KL divergence as a function of fairwashing strength plot with error shadings. 
 
 ### Evading FRAUD-Detect using an informed adversary
+In this section, we investigate on whether a dishonest entity could evade \name while performing fairwashing. 
+We assume an informed adversary who is aware of the FRAUD-Detect and desires to evade FRAUD-Detect while performing fairwashing. 
+
+To probe the robustness of our detector to an informed adversary empirically, we explore the range of fairness gap given a fixed value of fidelity and a fixed value of  $\mathcal{C}_{\text{KL}}$ via solving the informed adversary optimization problem.
 The folder `./FRAUD-Detect_code/threshold_plotting/threshold_plots.py`
 creates plots showing the range of unfairnesses achievable by a
 user seeking to evade the fairwashing detector. 
