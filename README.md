@@ -64,10 +64,10 @@ The code currently supports:
 - 2 interpretable models (Descision Trees, Logistic Regression)
 
 
-There are two graphs available 
-here, the C_KL over Demographic Parity for each seed with dashed lines 
-showing the black-box fairness, and also plots showing demographic 
-parity and C_KL over 1-$\epsilon$ with seaborn-style error shadings. 
+#### Outputs
+* The KL divergence as a function of Demographic Parity plot for each seed with dashed lines 
+showing the black-box fairness;
+* Demographic Parity and KL divergence as a function of 1-$\epsilon$ plot with error shadings. 
 
 ### Evading FRAUD-Detect using an informed adversary
 The folder `./FRAUD-Detect_code/threshold_plotting/threshold_plots.py`
