@@ -37,11 +37,7 @@ in our paper.
 Note: training the black-box models requires tensorflow.
 
 ### Fairwashing, training interpretable models
-The code currently supports:
 
-- 3 datasets (Adult income, COMPAS, and Bank Marketing)
-- 4 black-box models (DNN, AdaBoost, XgBoost, and Random Forest)
-- 2 interpretable models (Descision Trees, Logistic Regression)
 
 To run this code, see the section below:
 
@@ -59,6 +55,13 @@ Rerun the last line with requested arguments (note, epsilons are
 optional and given as space separated floats).
 Results will be generated in ``./sample_results/`` 
 directory. 
+
+
+The code currently supports:
+
+- 3 datasets (Adult income, COMPAS, and Bank Marketing)
+- 4 black-box models (DNN, AdaBoost, XgBoost, and Random Forest)
+- 2 interpretable models (Descision Trees, Logistic Regression)
 
 There are two graphs available 
 here, the C_KL over Demographic Parity for each seed with dashed lines 
